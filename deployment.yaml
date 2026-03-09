@@ -14,7 +14,7 @@ app: html-demo
 spec:
 containers:
 - name: html-demo
-image: krishikaa399/html-demo:latest
+image: 23mis0625/html-demo:latest
 ports:
 - containerPort: 80
 ---
@@ -29,4 +29,5 @@ app: html-demo
 ports:
 - port: 80
 targetPort: 80
+
 nodePort: 30010
